@@ -17,6 +17,7 @@ void chuta() {
     scanf(" %c", &chute);
 
     chutes[tentativas] = chute;
+    tentativas++;
 }
 
 int jachutou(char letra) {
@@ -64,8 +65,6 @@ int main() {
 
         desenhaforca();
         chuta();
-
-        tentativas++;
 
     } while (!acertou && !enforcou);
 
