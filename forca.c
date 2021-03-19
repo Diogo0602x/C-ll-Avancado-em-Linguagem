@@ -215,4 +215,5 @@ int main() {
     }
 
     adicionapalavra();
+	
 }
